@@ -24,7 +24,7 @@ pub struct Todo {
     tag: String,
 }
 
-pub impl Todo {
+impl Todo {
     pub fn new(id: i32, text: String) -> Self {
         Self {
             id,
